@@ -37,10 +37,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JJ
 		ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.jjh.bluetoothsocket.MainActivity
+activity#com.example.jjh.bluetoothsocket.activity.MainActivity
 ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
-		ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:12:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from F:\JJH\DevProject\outsourcing\BluetoothSocket\app\src\main\AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN

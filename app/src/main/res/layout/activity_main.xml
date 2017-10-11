@@ -5,27 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.jjh.bluetoothsocket.MainActivity">
+    tools:context="com.example.jjh.bluetoothsocket.activity.MainActivity">
 
-    <Button
-        android:id="@+id/scanBtn"
-        android:layout_width="384dp"
-        android:layout_height="50dp"
-        android:text="블루투스 디바이스 스캔"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="2dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/scanList"
-        android:layout_width="wrap_content"
-        android:layout_height="309dp" />
+        <Button
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="블루투스 디바이스 스캔"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <ListView
+            android:id="@+id/scanList"
+            android:layout_width="match_parent"
+            android:layout_height="343dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NONE"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </LinearLayout>
